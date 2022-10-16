@@ -1,0 +1,68 @@
+/*Импортируем шрифты*/
+@import url(../fonts/Inter/inter.css);
+
+/*normalize.css*/
+
+@import url(../vendor/normalize.css);
+
+/*page*/
+
+@import url(../blocks/page/page.css);
+
+/*Шапка сайта*/
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/__logo.css);
+@import url(../blocks/header/__lang-links/__lang-links.css);
+@import url(../blocks/header/__lang-link/__lang-link.css);
+
+/*lead*/
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/__title.css);
+@import url(../blocks/lead/__subtitle/__subtitle.css);
+@import url(../blocks/lead/__image/__image.css);
+@import url(../blocks/lead/__caption/__caption.css);
+
+/*intro*/
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/__title.css);
+@import url(../blocks/intro/__text/__text.css);
+@import url(../blocks/intro/__list/__list.css);
+
+/*photo-grid*/
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/__item.css);
+
+/*places*/
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/__title.css);
+@import url(../blocks/place/__website/__website.css);
+@import url(../blocks/place/__url-heading/__url-heading.css);
+@import url(../blocks/place/__link/__link.css);
+@import url(../blocks/place/__image/__image.css);
+@import url(../blocks/place/__container/__container.css);
+@import url(../blocks/place/__paragraph/__paragraph.css);
+
+/*cover*/
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/__overlay.css);
+@import url(../blocks/cover/__title/__title.css);
+@import url(../blocks/cover/__subtitle/__subtitle.css);
+@import url(../blocks/cover/__background/__background.css);
+
+/*footer*/
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/__copyright.css);
+@import url(../blocks/footer/__links/__links.css);
+@import url(../blocks/footer/__link/__link.css);
+
+/*Подключение шрифтов*/
+
+

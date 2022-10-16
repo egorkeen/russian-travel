@@ -1,0 +1,15 @@
+.cover__background {
+  width: 1184px;
+  height: 740px;
+  position: absolute;
+  background-image: url(../../../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: .5s ease-in-out;
+  z-index: 5;
+  opacity: .7;
+}
+
+.cover__background:hover {
+  opacity: .3;
+}

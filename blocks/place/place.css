@@ -1,0 +1,10 @@
+.place {
+  margin-bottom: 80px;
+  max-width: 984px;
+  max-height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  column-gap: 48px;
+  row-gap: 40px;
+}

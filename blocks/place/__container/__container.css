@@ -1,0 +1,5 @@
+.place__container {
+ max-width: fit-content;
+ max-height: fit-content;
+ margin: 0;
+}
