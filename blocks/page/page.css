@@ -1,6 +1,24 @@
 .page {
   min-width: 1280px;
-  min-height: fit-content;
+  max-height: fit-content;
   font-family: 'Inter';
   background-color: #2A2C2F;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    min-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    min-width: 320px;
+  }
 }

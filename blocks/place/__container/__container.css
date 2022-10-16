@@ -3,3 +3,10 @@
  max-height: fit-content;
  margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .place__container {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}

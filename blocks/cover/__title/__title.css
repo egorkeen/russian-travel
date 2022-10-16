@@ -10,3 +10,15 @@
   color: white;
   z-index: 10;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    width: 288px;
+    height: 70px;
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+  }
+}

@@ -4,3 +4,10 @@
   justify-content: flex-end;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
