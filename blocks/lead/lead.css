@@ -1,20 +1,20 @@
 .lead {
-  width: 984px;
-  height: 1005px;
+  max-width: 984px;
+  max-height: 1005px;
   margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: 928px;
-    height: 962px;
+    max-width: 928px;
+    max-height: fit-content;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     width: 768px;
-    height: 862px;
+    height: fit-content;
     margin-bottom: 88px;
   }
 }
@@ -22,7 +22,7 @@
 @media screen and (max-width: 320px) {
   .lead {
     width: 320px;
-    height: 406px;
+    height: fit-content;
     margin-bottom: 64px;
   }
 }

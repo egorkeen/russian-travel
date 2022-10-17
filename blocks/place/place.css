@@ -1,6 +1,6 @@
 .place {
   margin-bottom: 80px;
-  width: 984px;
+  max-width: 984px;
   max-height: fit-content;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -11,20 +11,20 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    width: 928px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    width: 720px;
+    max-width: 720px;
     margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    width: 320px;
+    max-width: 320px;
     grid-template-columns: 1fr;
     grid-template-rows: min-content min-content min-content min-content;
     margin-bottom: 50px;
