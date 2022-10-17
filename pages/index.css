@@ -1,9 +1,10 @@
-/*Импортируем шрифты*/
-@import url(../fonts/Inter/inter.css);
-
 /*normalize.css*/
 
 @import url(../vendor/normalize.css);
+
+/*Импортируем шрифты*/
+
+@import url(../fonts/Inter/inter.css);
 
 /*page*/
 
