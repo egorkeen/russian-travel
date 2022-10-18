@@ -9,5 +9,7 @@
   .place__website {
     grid-column: 1;
     grid-row: 2;
+    min-width: 288px;
+    margin: 0 auto;
   }
 }
