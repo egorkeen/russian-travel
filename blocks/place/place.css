@@ -1,12 +1,12 @@
 .place {
-  margin-bottom: 80px;
+  margin: 0 0 80px 0;
   max-width: 984px;
   max-height: fit-content;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: min-content 1fr;
-  column-gap: 48px;
-  row-gap: 40px;
+  grid-template-rows: min-content max-content;
+  column-gap: 30px;
+  row-gap: 48px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
