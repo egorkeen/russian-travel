@@ -1,8 +1,10 @@
 .footer__links {
   width: fit-content;
-  height: 18px;
   display: flex;
   gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
