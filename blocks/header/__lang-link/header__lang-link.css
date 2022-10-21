@@ -4,7 +4,6 @@
   line-height: 28px;
   color: white;
   text-decoration: none;
-  transition: linear .3s;
 }
 
 .header__lang-link:hover {
