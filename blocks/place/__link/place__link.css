@@ -6,11 +6,5 @@
 }
 
 .place__link:hover {
-  opacity: .7;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .place__link {
-    line-height: 20px;
-  }
+  opacity: .8;
 }
